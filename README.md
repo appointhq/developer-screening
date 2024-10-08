@@ -34,7 +34,7 @@ Following database tables will be created specifically for this application.
 
 (For more details, please check the database and migrations files.)
 
-# Tasks
+# Developer Tasks
 ## Part 1: API Implementation
 ### 1. App Controller
 - Review and refactor the code for listing apps (GET /api/apps).
