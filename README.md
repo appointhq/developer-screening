@@ -19,6 +19,21 @@ http://localhost:8000/api/tasks
 http://localhost:8000/api/users
 ```
 
+## Database & migrations
+We have added the database and migrations for this application and sqlite database is used.
+```
+php artisan migrate
+php artisan db:seed
+```
+
+Following database tables will be created specifically for this application.
+- users - users are stored in this table.
+- apps - apps are stored in this table.
+- app_users - users connected to the apps
+- tasks - tasks for the users
+
+(For more details, please check the database and migrations files.)
+
 # Tasks
 ## Part 1: API Implementation
 ### 1. App Controller
