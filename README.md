@@ -81,6 +81,20 @@ php artisan test
 php artisan test --profile --coverage --min=90
 ```
 
+If any code was not written by you and needs to be skipped, please add @codeCoverageIgnore to the method.
+
+```
+/**
+* store
+* @codeCoverageIgnore
+*/
+public function store(array $data): void
+{
+    //This is not needed for this screening test
+    return;
+}
+```
+
 ## Part 3: Code Review
 Review the following methods and add relevant comments and suggestions for improvement:
 
