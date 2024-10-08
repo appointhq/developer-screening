@@ -80,7 +80,7 @@ Please submit the completed application to your GitHub repository and send us th
 
 Download the latest source
 ```
-git clone  appointhq-dev-app
+git clone https://github.com/appointhq/developer-screening.git appointhq-dev-app
 ```
 ## Running the application
 Go to appointhq-dev-app dir
